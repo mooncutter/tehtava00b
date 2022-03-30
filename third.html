@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Tehtävä 00B</title>
+    <link rel="stylesheet" href="third.css" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #00008B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #F5FFFA;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #dae4de;
+  height: 300px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+nav {
+background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<body>
+<header>
+  <h2>Tehtävä 00B - Publishing to web</h2>
+</header>
+<footer>
+  <p>Jotain tekstiä</p>
+</footer>
+<section>
+    <nav>
+        <h2>Linkkien navigointi.</h2>
+    <div class="testi">
+    <ul>
+      <li><a href="https://www.google.com/" target="_blank">Linkki 1</a></li>
+      <li><a href="https://www.w3schools.com/" target="_blank">Linkki 2</a></li>
+    </ul>
+    </div>
+  </nav>
+  <article>
+    <h3>Kohta 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Tähän sitten lisää tekstiä. Lorem ipsum jne.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Tehtävä 00B Jesse Hinkkanen</p>
+</footer>
+
+</body>
+</html>
